@@ -20,11 +20,18 @@ function Nuevo_Juego()
 
 function Probar_Letra()
 {
-	var pos;
-	var i = 0;
 	var letra = "";
-	var acierto = false;
 	letra = document.getElementById("txtLetra").value;
+	if (letra.length == 0)
+	{
+		alert("Debe digitar una letra");
+		document.getElementById("txtLetra").focus();
+	}
+	else
+	{
+				var pos;
+	var i = 0;
+	var acierto = false;
 	
 	for (i=0; i < palabra.length; i++)
 	{
@@ -61,5 +68,6 @@ function Probar_Letra()
 	document.getElementById("txtLetra").value = "";
 	document.getElementById("palabra").innerHTML = pal.join(" ");
 	document.getElementById("vidas").innerHTML = vidas;
+	}
 }
 Nuevo_Juego();
