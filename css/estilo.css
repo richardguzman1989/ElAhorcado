@@ -1,26 +1,39 @@
-			body 
-			{
-				background: yellow;
-			}
-			h1,p
-			{
-				text-align: center;
-				font-family: Arial;
-			}
-			#palabra
-			{
-				font-size: 80px;
-				/*letter-spacing: 16px;*/
-			}
-			#txtLetra, button, input
-			{
-				font-size: 36px;
-				text-align: center;
-				border-radius: 6px;
-				border: 2px solid black;
-				padding: 5px;
-			}
-			#vidas
-			{
-				font-size: 36px;
-			}
+body 
+{
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	background-size: 100% 100%;
+}
+
+h1
+{
+	color: yellow;
+}
+
+h1,p
+{
+	text-align: center;
+	font-family: Arial;
+}
+
+#palabra
+{
+	font-size: 80px;
+	/*letter-spacing: 16px;*/
+}
+
+#txtLetra, button, input
+{
+	font-size: 36px;
+	text-align: center;
+	border-radius: 6px;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+#vidas
+{
+	font-size: 36px;
+}
